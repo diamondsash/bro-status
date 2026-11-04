@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Sicherheitslücke melden / Report a vulnerability
+    url: https://github.com/diamondsash/bro-status/security/advisories/new
+    about: Bitte nicht als öffentliches Issue. / Please do not use a public issue.

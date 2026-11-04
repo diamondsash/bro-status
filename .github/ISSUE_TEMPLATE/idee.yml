@@ -1,0 +1,21 @@
+name: Idee oder Wunsch / Idea or request
+description: Etwas soll besser werden oder neu dazukommen. / Something should be improved or added.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idee
+    attributes:
+      label: Was wünschst du dir? / What would you like?
+      description: Beschreibe es am besten an einem Beispiel aus deinem Alltag. / Describe it with a real-life example if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: nutzen
+    attributes:
+      label: Wobei würde es dir helfen? / How would it help you?
+  - type: checkboxes
+    id: nennung
+    attributes:
+      label: Nennung im Update / Credit in the update
+      options:
+        - label: Wenn meine Idee umgesetzt wird, darf mein GitHub-Name im Update genannt werden. / If my idea is implemented, you may credit my GitHub name in the update. Ich kann das jederzeit im Issue widerrufen. / I can withdraw this at any time in the issue.

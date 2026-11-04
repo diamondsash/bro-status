@@ -1,0 +1,63 @@
+name: Fehler melden / Report a bug
+description: Etwas funktioniert nicht wie beschrieben. / Something does not work as described.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Melden! / Thanks for reporting!
+        Bitte keine Tokens, Passwörter oder private Angaben in Screenshots oder Texten zeigen. Auf Bildern der Statusline stehen oft Projektnamen, Dateipfade und Rechnernamen: Mach sie unkenntlich, wenn sie privat sind. / Please keep tokens, passwords and private data out of screenshots and text. Status line pictures often show project names, file paths and computer names: blur them if they are private.
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert? / What happened?
+      description: Was hast du gemacht, was hast du erwartet, was ist stattdessen passiert? / What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: System / System
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: ort
+    attributes:
+      label: Wo nutzt du Claude Code? / Where do you use Claude Code?
+      options:
+        - Terminal
+        - Desktop-App
+        - VS Code
+        - Anderes / Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Claude-Code-Version / Claude Code version
+      description: Ausgabe von `claude --version`, falls du sie kennst. / Output of `claude --version`, if you know it.
+  - type: input
+    id: brostatus-version
+    attributes:
+      label: BroStatus-Version / BroStatus version
+      description: Steht oben in der Anleitung, zum Beispiel 1.0.0. / It is at the top of the guide, for example 1.0.0.
+  - type: input
+    id: modell
+    attributes:
+      label: Modell / Model
+      description: Zum Beispiel Opus 5.5 oder Sonnet 5.5, falls es um Kosten oder Cache geht. / For example Opus 5.5 or Sonnet 5.5, if it is about costs or the cache.
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot oder Text / Screenshot or text
+      description: Zieh ein Bild hierher oder füge Text ein. / Drag an image here or paste text.
+  - type: checkboxes
+    id: nennung
+    attributes:
+      label: Nennung im Update / Credit in the update
+      options:
+        - label: Wenn mein Hinweis zu einer Änderung führt, darf mein GitHub-Name im Update genannt werden. / If my report leads to a change, you may credit my GitHub name in the update. Ich kann das jederzeit im Issue widerrufen. / I can withdraw this at any time in the issue.

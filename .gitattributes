@@ -1,0 +1,10 @@
+* text=auto eol=lf
+# Windows-Installer unverändert speichern (braucht Windows-Zeilenenden, auch beim Download von GitHub)
+*.cmd -text
+*.png binary
+*.jpg binary
+*.pdf binary
+*.ico binary
+*.exe binary
+*.zip binary
+*.wav binary

@@ -1,0 +1,52 @@
+name: Soundset vorstellen / Share a sound set
+description: Du hast Töne für BroStatus gebaut oder verbessert. / You made or improved sounds for BroStatus.
+labels: ["sounds"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du Töne teilen möchtest! / Thanks for sharing sounds!
+        Teile nur Töne, die du selbst gemacht hast oder die frei verwendet werden dürfen. Töne aus Filmen, Serien oder Spielen darfst du meist nicht weitergeben. / Only share sounds you made yourself or that may be used freely. Sounds from films, series or games usually may not be shared.
+  - type: input
+    id: name
+    attributes:
+      label: Name des Sets / Name of the set
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link zum Download / Download link
+      description: Zum Beispiel ein eigenes Repo oder ein ZIP. Das Set wird nicht in diesem Repo gespeichert. / For example your own repo or a ZIP. The set is not stored in this repo.
+    validations:
+      required: true
+  - type: textarea
+    id: inhalt
+    attributes:
+      label: Was ist enthalten? / What is included?
+      description: Dateien nach dem Muster `warten-<Name>.wav` und `fertig-<Name>.wav` (nur Windows, nur WAV). / Files following the pattern `warten-<Name>.wav` and `fertig-<Name>.wav` (Windows only, WAV only).
+    validations:
+      required: true
+  - type: dropdown
+    id: herkunft
+    attributes:
+      label: Woher kommen die Töne? / Where do the sounds come from?
+      options:
+        - Selbst gemacht / Made by me
+        - Frei lizenziert (zum Beispiel CC0 oder CC BY) / Freely licensed (for example CC0 or CC BY)
+        - Anderes / Other
+    validations:
+      required: true
+  - type: textarea
+    id: lizenz
+    attributes:
+      label: Quelle und Lizenz / Source and license
+      description: "Bei freier Lizenz: Name der Lizenz und Link zur Quelle. / For a free license: name of the license and link to the source."
+  - type: checkboxes
+    id: rechte
+    attributes:
+      label: Rechte / Rights
+      options:
+        - label: Ich habe die Rechte, diese Töne zu teilen. / I have the right to share these sounds.
+          required: true
+        - label: Mein GitHub-Name darf genannt werden, wenn das Set in der README verlinkt wird. / My GitHub name may be credited if the set is linked in the README. Ich kann das jederzeit im Issue widerrufen. / I can withdraw this at any time in the issue.

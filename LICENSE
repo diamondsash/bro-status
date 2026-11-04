@@ -1,0 +1,81 @@
+"Commons Clause" License Condition v1.0
+
+The Software is provided to you by the Licensor under the License, as defined
+below, subject to the following condition.
+
+Without limiting other conditions in the License, the grant of rights under the
+License will not include, and the License does not grant to you, the right to
+Sell the Software.
+
+For purposes of the foregoing, "Sell" means practicing any or all of the rights
+granted to you under the License to provide to third parties, for a fee or other
+consideration (including without limitation fees for hosting or consulting/
+support services related to the Software), a product or service whose value
+derives, entirely or substantially, from the functionality of the Software. Any
+license notice or attribution required by the License must also include this
+Commons Clause License Condition notice.
+
+Software: BroStatus
+License: MIT
+Licensor: DiamondSash
+
+---
+
+MIT License
+
+Copyright (c) 2026 DiamondSash
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Name and images (the three paragraphs below are authoritative in English;
+BRANDING.md, in German and in English, is only an explanation):
+
+The name "BroStatus" and the figure "Bro" (the image files icon*.png and
+brostatus.ico) may be used by anyone, free of charge, to describe, promote and
+distribute the Software, including modified versions. This does not allow
+demeaning or deceptive uses of the figure or the name. The diamond (the Braille
+characters in the status line and the file bilder/diamant-farben.png) is part
+of the Software and licensed like the rest of the Software (MIT with the
+Commons Clause), not under the permission for the name and the figure above.
+
+The limit for modified versions: If you modify the Software, do not present your version as the
+original BroStatus or as made, approved or supported by DiamondSash, and make
+clear that it is a modified version. You may say that it is based on BroStatus
+by DiamondSash and link to this repository. A version counts as modified if the
+code, the texts or the images of the Software are changed; using your own
+configuration or your own sound files is not a modification. Anyone who makes
+an add-on for BroStatus, such as a sound pack, may describe it as "for
+BroStatus", for example "Retro sounds for BroStatus". A modified version needs a name of
+its own that does not contain "BroStatus"; the phrase "based on BroStatus by
+DiamondSash" is allowed. Only the unmodified BroStatus from this repository is
+the official version.
+
+The code stays under the MIT License with the Commons Clause (no selling); this
+paragraph only governs the use of the name and the figure.
+
+Optional automatic features. This edition of the Software ("Lite") does not
+contain features that send requests automatically through your Claude Code
+account (keep-warm, Auto-Compact, wrap-up and model switch preparation). Such
+features may be added in a later edition once it has been clarified whether
+Anthropic's terms of use allow them; the author makes no promise that they are
+allowed or that they will be added. The buttons under reports and the answer
+buttons send a message into your session only when you click them. You are
+responsible for checking Anthropic's terms and for how you use the Software.
+The disclaimer of warranty and liability above applies, including to any
+consequence for your Claude account or plan.

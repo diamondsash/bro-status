@@ -1,0 +1,9 @@
+{
+  "name": "bro-status",
+  "version": "1.0.0",
+  "description": "BroStatus-Panel für Claude Code: Status, Kontext, Limits, Cache warmhalten (WARM/KALT), Auto-Compact, Feierabend, Modellwechsel, Töne und Antwort-Knöpfe",
+  "author": { "name": "DiamondSash", "url": "https://github.com/diamondsash" },
+  "homepage": "https://github.com/diamondsash/bro-status",
+  "repository": "https://github.com/diamondsash/bro-status",
+  "license": "SEE LICENSE IN LICENSE"
+}

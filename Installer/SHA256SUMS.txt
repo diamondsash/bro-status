@@ -1,0 +1,4 @@
+720a165c7112af27b5b8099f360f25f93da1a31c20bcc743b9a41ca4d98ed109  Installer/Windows/BroStatus-Install.cmd
+b2d82571bb20f14bd147efeee2375d9929953d2d7351188efcdf9a64e732d1a7  Installer/Windows/BroStatus-Install.exe
+60d4a3248a996bd84cdef0e429f20d94848b6012b8656c69c3b645bc40d64bf8  Installer/Mac/BroStatus-Mac.zip
+9b894582cc731713a9f5e918956741bdb7d985da61ac181f0c8a5b998880a448  Installer/Linux/brostatus-install.sh

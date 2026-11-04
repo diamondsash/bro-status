@@ -1,0 +1,9 @@
+{
+  "stand": "2026-10-28",
+  "quelle": "EZB-Referenzkurse (ecb.europa.eu), 1 EUR = x Fremdwährung",
+  "pro_eur": {
+    "USD": 1.1133,
+    "GBP": 0.83785,
+    "CHF": 0.9247
+  }
+}
